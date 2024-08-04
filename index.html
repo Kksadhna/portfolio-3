@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+     <nav id="navbar">
+        <div class="logo">Ritika Parashar</div>
+        <div><ul class="links">
+            <li><a href="#about">Home</a></li>
+            <li><a href="#projects">My Work</a></li>
+            <li><a href="#experiance">Skills</a></li>
+        </ul> 
+    </div>
+</nav>
+        
+         <nav id="Hamburger-nav">
+            <div class="logo">Ritika Parashar</div>
+         <div class="Hamburger-menu ">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+            <div class="menu-links" >
+                <li><a href="#about" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">My Work</a></li>
+                <li><a href="#experiance" onclick="toggleMenu()">Skills</a></li>
+            </div>
+         </div>  
+        </nav>
+       
+     
+      <!-- hero page -->
+     <section id="profile">
+        <div class="profile-pic">
+            <img src="hero.jpg" >
+        </div>
+        <div class="section-text">
+            <p class="p1">Hello I'm</p>
+            <h1 class="title">Ritika Parashar</h1>
+            <p class="p2">Frontend Developer</p>
+        
+        <div class="btn-container">
+            <button class="btn btn-1" onclick="window.open('ritika parashar_resume.pdf')">Download CV</button>
+            <button class="btn btn-2"  onclick="location.href='./#contact'">Contact Info</button>
+        </div>
+        <div class="social-container">
+            <img src="linked.png" alt="img" class="icon" onclick="location.href='https://www.linkedin.com/in/ritika-parashar-21a12b24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app '">
+            <img src="github.png" alt="img" class="icon" onclick="location.href='https://github.com/Kksadhna'" >
+
+        </div>
+        </div>
+     </section> 
+
+     <!-- about -->
+     <section id="about">
+        <p class="p1">Get to Know  More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="profile-pic">
+            <img src="about.jpg" alt="" class="about-pic">
+        </div>
+        <div class="about-details-container">
+            <div class="about-container">
+                <div class="detailes-container">
+                    <img src="icon.png" alt="" class="icon">
+                 <h3>Experiance</h3>
+                 <p>fresher<br>Frontend Developer </p>
+                    
+                </div>
+                <div class="detailes-container">
+                    <img src="icon.png" alt="" class="icon">
+                 <h3>Education</h3>
+                 <p> B.tech<br>Bachelors Degree </p>
+                </div>
+
+            </div>
+            <div class="text-container">
+                <p>
+                    Hello, I'm Ritika Parashar, a passionate web developer dedicated to crafting exceptional digital experiences. I specialize in building modern, user-friendly websites and web applications tailored to meet your unique needs.<br>
+                   <b> What I Do<br>
+                    Frontend Development:</b> Transforming designs into responsive, interactive websites.
+                </p>
+            </div>
+        </div>
+    </div>
+    <img src="arrow.png" alt="" class="icon arrow" onclick="location.href='./#experiance'">
+     </section>
+     <section id="experiance">
+        <p class="p1">Explore My</p>
+        <h1 class="title">Experiance</h1>
+        <div class="experiance-detail-container">
+            <div class="about-container">
+                <div class="detailes-container">
+                    <h2 class="experiance-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="tick.png" alt="experiance" class="icon">
+                            <div >
+                                <h3>HTML</h3>
+                                <p>Experianced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="tick.png" alt="experiance" class="icon">
+                            <div >
+                                <h3>CSS</h3>
+                                <p>Experianced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="tick.png" alt="experiance" class="icon">
+                            <div >
+                                <h3>JavaScript</h3>
+                                <p>Intrmediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="tick.png" alt="experiance" class="icon">
+                            <div >
+                                <h3>Bootstrap</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="tick.png" alt="experiance" class="icon">
+                            <div >
+                                <h3>ReactJs</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="tick.png" alt="experiance" class="icon">
+                            <div >
+                                <h3>Tailwind</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="detailes-container">
+                    <h2 class="experiance-sub-title">New Learnings</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="tick.png" alt="experiance" class="icon">
+                            <div >
+                                <h3>Node Js</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="tick.png" alt="experiance" class="icon">
+                            <div >
+                                <h3>Git</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+   
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="arrow.png" alt="" class="icon arrow" onclick="location.href='./#projects'">
+     </section>
+     <section id="projects">
+        <p class="p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experiance-detail-container">
+            <div class="about-container">
+            <div class="detailes-container color-container">
+                <div class="article-container">
+                    <img src="restro.jpeg" alt="" class="project-img">
+                </div>
+                <h2 class="experiance-sub-title project-title">Restro Website</h2>
+                <div class="btn-container">
+                    <button class="btn btn-1 project-btn" onclick="location.href='https://github.com/Kksadhna/restro'">
+                        Github
+                    </button>
+                    <button class="btn btn-1 project-btn" onclick="location.href='https://kksadhna.github.io/restro/'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="detailes-container color-container">
+                <div class="article-container">
+                    <img src="amazon.png" alt="" class="project-img">
+                </div>
+                <h2 class="experiance-sub-title project-title">Amazon Clone</h2>
+                <div class="btn-container">
+                    <button class="btn btn-1 project-btn" onclick="location.href='https://github.com/Kksadhna/amazon-clone'">
+                        Github
+                    </button>
+                    <button class="btn btn-1 project-btn" onclick="location.href='https://kksadhna.github.io/amazon-clone/'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="detailes-container color-container">
+                <div class="article-container">
+                    <img src="portfolio.png" alt="" class="project-img">
+                </div>
+                <h2 class="experiance-sub-title project-title">Portfolio Demo</h2>
+                <div class="btn-container">
+                    <button class="btn btn-1 project-btn" onclick="location.href='https://github.com/Kksadhna/mainportfolio'">
+                        Github
+                    </button>
+                    <button class="btn btn-1 project-btn" onclick="location.href='https://kksadhna.github.io/mainportfolio/'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+        <img src="arrow.png" alt="" class="icon arrow" onclick="location.href='./#contact'">
+     </section>
+    <section id="contact">
+        <p class="p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="email.png" alt="" class="icon contact-icon">
+                <p><a href="">ritikaparashar21194@gmail.com</a></p>
+            </div>
+        
+        
+            <div class="contact-info-container">
+                <img src="linked.png" alt="" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/ritika-parashar-21a12b24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">linkedin</a></p>
+            </div> 
+        </div> 
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="links">
+                    <li><a href="#about">Home</a></li>
+                    <li><a href="#projects">My Work</a></li>
+                    <li><a href="#experiance">Skills</a></li>
+                </ul> 
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Ritika Parashar. all Rights Reserved.</p>
+    </footer>
+     <script src="app.js"></script>
+</body>
+</html> 
