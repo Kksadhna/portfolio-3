@@ -135,12 +135,16 @@ a:hover{
     gap: 5rem;
     height: 80vh;
 }
+/* .profile-img{
+    height: 400px;
+    width:400px;
+} */
 .profile-pic{
     height: 400px;
     width:400px;
     margin: auto 0;
     display: flex;
-    border-radius: 50%; 
+   
     
 }
    
@@ -370,6 +374,10 @@ footer p{
 
 
 @media screen and (max-width:1200px){
+    body{
+        background-color: white;
+        color: black;
+    }
     #navbar {
         display: none;
     }
@@ -403,6 +411,10 @@ footer p{
     
 }  
 @media screen and (max-width:600px){
+    body{
+        background-color: white;
+        color: black;
+    }
     #contact,footer{
         height: 40vh;
     }
@@ -450,5 +462,8 @@ footer p{
     }
     .text-container{
         text-align: justify;
+    }
+    .hamburger-icon{
+        color:black ;
     }
 }
