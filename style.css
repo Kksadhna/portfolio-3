@@ -374,10 +374,7 @@ footer p{
 
 
 @media screen and (max-width:1200px){
-    body{
-        background-color: white;
-        color: black;
-    }
+   
     #navbar {
         display: none;
     }
@@ -411,10 +408,7 @@ footer p{
     
 }  
 @media screen and (max-width:600px){
-    body{
-        background-color: white;
-        color: black;
-    }
+   
     #contact,footer{
         height: 40vh;
     }
@@ -450,14 +444,11 @@ footer p{
         text-align: center;
     }
     .profile-pic{
-        width: 46vw;
+        width: auto;
         height: 46vw;
         justify-content: center;
     }
-    .profile-img{
-        height: 46px;
-        width: 46px;
-    }
+    
     .p2{
      font-size: 1.25rem;
     }
@@ -467,7 +458,5 @@ footer p{
     .text-container{
         text-align: justify;
     }
-    .hamburger-icon{
-        color:black ;
-    }
+    
 }
