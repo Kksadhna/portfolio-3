@@ -450,11 +450,9 @@ footer p{
         text-align: center;
     }
     .profile-pic{
-       max-width: 100%;
-       height: auto;
-        
+        width: 46vw;
+        height: 46vw;
         justify-content: center;
-        overflow-x: hidden;
     }
     .p2{
      font-size: 1.25rem;
