@@ -454,6 +454,10 @@ footer p{
         height: 46vw;
         justify-content: center;
     }
+    .profile-img{
+        height: 46px;
+        width: 46px;
+    }
     .p2{
      font-size: 1.25rem;
     }
