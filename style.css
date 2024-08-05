@@ -147,6 +147,9 @@ a:hover{
    
     
 }
+.profile-pic .profile-img{
+    border-radius: 50%;
+}
    
   
 .section-text {
@@ -415,6 +418,9 @@ footer p{
     #profile{
         height: 83vh;
         margin-bottom: 0;
+    }
+    .profile-pic .profile-img{
+        border-radius: 50%;
     }
     article{
         font-size: 1rem;
