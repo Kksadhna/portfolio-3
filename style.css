@@ -421,7 +421,9 @@ footer p{
     }
     .profile-pic .profile-img{
         border-radius: 50%;
+        
     }
+    
     article{
         font-size: 1rem;
     }
@@ -450,8 +452,11 @@ footer p{
         text-align: center;
     }
     .profile-pic{
-        width: auto;
-        height: 46vw;
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+        /* width: auto;
+        height: 46vw; */
         justify-content: center;
     }
     
@@ -464,5 +469,4 @@ footer p{
     .text-container{
         text-align: justify;
     }
-    
 }
